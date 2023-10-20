@@ -1,0 +1,7 @@
+{
+  "name": "ant_captors",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
