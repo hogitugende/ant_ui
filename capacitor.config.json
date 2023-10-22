@@ -1,0 +1,6 @@
+{
+  "appId": "bi.hogi.btransfer",
+  "appName": "B-Transfer",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}

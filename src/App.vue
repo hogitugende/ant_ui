@@ -1,9 +1,20 @@
 <template>
   <ion-app>
-    <ion-router-outlet />
+    <ion-router-outlet/>
   </ion-app>
 </template>
+<script>
 
-<script setup lang="ts">
-import { IonApp, IonRouterOutlet } from '@ionic/vue';
+export default {
+  components:{
+  },
+  watch:{
+  },
+  methods:{
+  },
+  mounted(){
+  }
+}
 </script>
+<style src="./style.css">
+</style>

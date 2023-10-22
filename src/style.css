@@ -1,0 +1,41 @@
+:root {
+  --ion-color-primary: #FA1;
+  --ion-color-primary-rgb: 250, 200, 0;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #EB0;
+  --ion-color-primary-tint: #FC6;
+
+  --ion-color-light: #FA15;
+  --ion-color-light-rgb: 250, 200, 0;
+  --ion-color-light-contrast: #ffffff;
+  --ion-color-light-contrast-rgb: 255, 255, 255;
+  --ion-color-light-shade: #EB05;
+  --ion-color-light-tint: #FC65;
+
+  --ion-color-secondary: #123;
+  --ion-color-secondary-rgb: 255, 220, 20;
+  --ion-color-secondary-contrast: #ffffff;
+  --ion-color-secondary-contrast-rgb: 255, 255, 255;
+  --ion-color-secondary-shade: #012;
+  --ion-color-secondary-tint: #136;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ion-checkbox {
+  --size: 32px;
+  --background-checked: #6815ec;
+}
+ion-checkbox::part(container) {
+  border-radius: 6px;
+  border: 2px solid #6815ec;
+}
+/*.header-md::after{
+  height: 0!important;
+}*/
+.header-md{
+  padding-left: 20px;
+}
